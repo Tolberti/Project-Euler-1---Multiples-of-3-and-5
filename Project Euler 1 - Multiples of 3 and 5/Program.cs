@@ -25,7 +25,7 @@ namespace Project_Euler_1___Multiples_of_3_and_5
                 }
                 else // If it's not divisible by 3, check if it's divisible by 5.
                 {
-                    Math.DivRem(number, 3, out remainder);
+                    Math.DivRem(number, 5, out remainder);
                     if (remainder == 0) total += number;
                     else continue;
                 }
